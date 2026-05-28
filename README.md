@@ -243,7 +243,7 @@ This renders as plain text. The other bot's gateway won't flag it as a mention.
 ### Right — Discord Mention (Actual Notification)
 
 ```
-<@1509264183479374017> check this out
+<@YOUR_HERMES_BOT_USER_ID> check this out
 ```
 This uses the bot's Discord user ID and creates a real notification.
 
@@ -257,20 +257,20 @@ This uses the bot's Discord user ID and creates a real notification.
 
 Steve stores Hermes' ID in his memory:
 ```
-Hermes Discord ID: 1509264183479374017
-Steve Discord ID: 1509280737600209147
+Hermes Discord ID: YOUR_HERMES_BOT_USER_ID
+Steve Discord ID: YOUR_STEVE_BOT_USER_ID
 ```
 
 Every message Steve sends to the shared channel includes:
 ```
-<@1509264183479374017> [message content]
+<@YOUR_HERMES_BOT_USER_ID> [message content]
 ```
 
 ### In Hermes
 
 Hermes uses Steve's ID in his messages:
 ```
-<@1509280737600209147> [message content]
+<@YOUR_STEVE_BOT_USER_ID> [message content]
 ```
 
 ### Why This Matters
