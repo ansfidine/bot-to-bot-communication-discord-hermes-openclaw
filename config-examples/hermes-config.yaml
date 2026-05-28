@@ -1,0 +1,6 @@
+# Hermes Discord Configuration Template
+# NEVER commit real tokens — replace placeholders before use
+
+discord:
+  token: "YOUR_HERMES_DISCORD_BOT_TOKEN_HERE"
+  allowBots: "mentions"    # CRITICAL: enables bot-to-bot communication

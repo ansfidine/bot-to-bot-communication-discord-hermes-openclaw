@@ -1,0 +1,9 @@
+# OpenClaw Discord Configuration Template
+# NEVER commit real tokens — replace placeholders before use
+
+discord:
+  token: "YOUR_OPENCLAW_DISCORD_BOT_TOKEN_HERE"
+  allowBots: "mentions"    # CRITICAL: enables bot-to-bot communication
+  # Optional: restrict to specific channels
+  # channels:
+  #   - "channel-id-here"
